@@ -2,18 +2,18 @@ module.exports = {
 	helpCmdPerPage: 10, //- Number of commands per page of help command
 	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
 	adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "", //- Bot's Token
-	clientId: process.env.clientId || "", //- ID of the bot
-	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
+	token: process.env.token || "MTI0MTA3NzY4MzA1MjQ3ODYzNQ.Gu1moR.6VuOFK36xiwWwZ3U4zHUiqT2xtblLwe4pXIFjk", //- Bot's Token
+	clientId: process.env.clientId || "1241077683052478635", //- ID of the bot
+	clientSecret: process.env.clientSecret || "q6maIP-S5gCTyJHTe_OvPHx9oa-hCctU", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
-	inviteScopes: ["bot", "applications.commands"], // Invite link scopes
+	inviteScopes: ["https://discord.com/oauth2/authorize?client_id=1241077683052478635&permissions=36148629260352&scope=bot+applications.commands"], // Invite link scopes
 	serverDeafen: true, //- If you want bot to stay deafened
 	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
 	supportServer: "https://discord.gg/sbySMS7m3v", //- Support Server Link
 	Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //- Bug Report Link
 	permissions: 277083450689, //- Bot Inviting Permissions
-	disconnectTime: 30000, //- How long should the bot wait before disconnecting from the voice channel (in miliseconds). Set to 1 for instant disconnect.
+	disconnectTime: 80000, //- How long should the bot wait before disconnecting from the voice channel (in miliseconds). Set to 1 for instant disconnect.
 	twentyFourSeven: false, //- When set to true, the bot will never disconnect from the voice channel
 	autoQueue: false, //- When set to true, related songs will automatically be added to the queue
 	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
@@ -40,8 +40,8 @@ module.exports = {
 		status: "online", //- You can have online, idle, dnd and invisible (Note: invisible makes people think the bot is offline)
 		activities: [
 			{
-				name: "Music", //- Status Text
-				type: "LISTENING", //- PLAYING, WATCHING, LISTENING, STREAMING
+				name: "Raining rhythms, Pouring playlists", //- Status Text
+				type: "🌧️", //- PLAYING, WATCHING, LISTENING, STREAMING
 			},
 		],
 	},
